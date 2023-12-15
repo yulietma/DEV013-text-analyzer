@@ -1,3 +1,7 @@
 import analyzer from './analyzer.js';
+const textarea = document.querySelector("textarea[name='escribe']");//querySelector me ayuda a llamar el atributo name de un elemento en este caso dentro del textarea ay un atributo name
+const boton = document.querySelector("#resetbutton");
 
-//TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
+boton.addEventListener("click", (event) => {
+  textarea.value = "";
+});
