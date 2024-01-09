@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(136, 184, 185);
+}
+h1{
+    text-align: center;
+    color:#7a7978;
+    font-style:oblique;
+     background-color: rgba(255, 255, 255, 0.5); /* Blanco semi-transparente */
+      
+}
+
+ ul{
+    list-style: none;
+ }
+ ul.a li{
+    display: inline;
+    font-style:oblique;
+    
+ }
+.palabra{
+    color:grey;
+border-color: beige;
+background-color:rgba(241, 232, 240, 0.938);
+border-style: groove;
+margin-left: 11%;
+padding: 0.4rem 6rem;
+
+
+}
+.caracter{
+color: gray;
+border-color:beige;
+background-color: rgba(241, 232, 240, 0.938);
+border-style: groove;
+margin: 15px;
+padding: 0.4rem 6rem;
+}
+.ex{
+    color: grey;
+    border-color: beige;
+    background-color: rgba(241, 232, 240, 0.938);
+    border-style: groove;
+    margin: 15px;
+    padding: 0.4rem 6rem;
+}
+.num{
+    color: grey;
+    border-color: beige;
+    background-color: rgba(241, 232, 240, 0.938);
+    border-style:groove;
+    margin-left: 11%;
+
+    padding: 0.4rem 6rem;
+}
+.mas{
+    color: grey;
+    border-color: beige;
+    background-color:rgba(241, 232, 240, 0.938);
+    border-style: groove;
+    margin: 15px;
+    padding: 0.4rem 6rem;
+}
+.long{
+    color:grey;
+    border-color: beige;
+    background-color: rgba(241, 232, 240, 0.938);
+    border-style:groove;
+    margin: 15px;
+    padding: 0.4rem 6rem;
+}
+h2{
+    text-align:right;
+}
+textarea{
+    background-color: rgb(236, 174, 212);
+    border-style:ridge;
+    border-color:beige;
+    margin-right: 25%;
+    font-style: italic;
+    height: 17em;
+    width: 700px;
+}
+h3{
+    text-align:end;
+}
+#resetbutton{
+    background-color: rgb(153, 223, 180);
+    margin-right: 35%;
+    border-radius: 15px;
+    padding: 0.3rem 1rem;
+}
+footer{
+color: darkslategrey;
+background-color: rgba(255, 255, 255, 0.5); /* Blanco semi-transparente */
+text-align: center;
+font-style:oblique;
+}
