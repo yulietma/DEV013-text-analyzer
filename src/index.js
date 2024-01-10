@@ -3,8 +3,14 @@ import analyzer from "./analyzer.js";
 const textarea = document.querySelector("textarea[name='escribe']");//querySelector me ayuda a llamar el atributo name de un elemento en este caso dentro del textarea ay un atributo name
 const boton = document.querySelector("#resetbutton");
 //limpia el textarea con el boton
-boton.addEventListener("click", (event) => {
+boton.addEventListener("click", () => {
   textarea.value = "";
+  li1.textContent="";
+  li2.textContent="";
+  li3.textContent="";
+  li4.textContent="";
+  li5.textContent="";
+  li6.textContent="";
 });
 
 const li1= document.querySelector('.palabra');
@@ -16,7 +22,7 @@ const li6= document.querySelector('.long');
 
 //contador de palabras
 textarea.addEventListener('input', function(e){
-  li1.textContent= "Palabras:" + analyzer.getWordCount(e.target.value) ;
+  li1.textContent=  + analyzer.getWordCount(e.target.value) ;
 })
 
 //contador de caracteres
