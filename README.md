@@ -1,11 +1,9 @@
-# Analizador de Texto 
-
+# Analizador de texto
 ## Objetivo
 * Realizar un analisis de datos de manera especifica con caracteres, 
 * numeros y palabras, permitiendo al usuario observar su texto de 
 * forma cuantificada.Haciendo posible que el ususario pueda corregir 
 * el texto segun sus caracteres, palabras y numeros  deseados.
-
 ## Contenido
 
 * [1. Objetivo](#-Objetivo)
@@ -16,7 +14,7 @@
 
 ## Demo
 
-* ![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+
 
 ## 2. Preámbulo
 
