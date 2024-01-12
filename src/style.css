@@ -1,3 +1,10 @@
+header {
+        background-color: red; /* Color de fondo */
+        color: #fff; /* Color del texto */
+        padding: 10px; /* Espaciado interno */
+        text-align: center; /* Alineación del texto */
+ }
+    
 body{
     background-color: rgb(136, 184, 185);
 }
@@ -17,61 +24,23 @@ h1{
     font-style:oblique;
     
  }
-.palabra{
+ .E{
     color:grey;
-border-color: beige;
-background-color:rgba(241, 232, 240, 0.938);
-border-style: groove;
-margin-left: 11%;
-padding: 0.4rem 6rem;
-
-
-}
-.caracter{
-color: gray;
-border-color:beige;
-background-color: rgba(241, 232, 240, 0.938);
-border-style: groove;
-margin: 15px;
-padding: 0.4rem 6rem;
-}
-.ex{
-    color: grey;
-    border-color: beige;
-    background-color: rgba(241, 232, 240, 0.938);
-    border-style: groove;
-    margin: 15px;
-    padding: 0.4rem 6rem;
-}
-.num{
-    color: grey;
-    border-color: beige;
-    background-color: rgba(241, 232, 240, 0.938);
-    border-style:groove;
-    margin-left: 11%;
-
-    padding: 0.4rem 6rem;
-}
-.mas{
-    color: grey;
     border-color: beige;
     background-color:rgba(241, 232, 240, 0.938);
     border-style: groove;
-    margin: 15px;
     padding: 0.4rem 6rem;
+ }
+.palabra, .num{ 
+    margin-left: 5%;
 }
-.long{
-    color:grey;
-    border-color: beige;
-    background-color: rgba(241, 232, 240, 0.938);
-    border-style:groove;
+.caracter, .ex, .mas, .long{
     margin: 15px;
-    padding: 0.4rem 6rem;
 }
 h2{
     text-align:right;
 }
-textarea{
+textarea[name="escribe"]{
     background-color: rgb(236, 174, 212);
     border-style:ridge;
     border-color:beige;
