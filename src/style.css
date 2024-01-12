@@ -1,9 +1,9 @@
 
 header {
-        background-color: red; /* Color de fondo */
+       
         color: #fff; /* Color del texto */
         padding: 10px; /* Espaciado interno */
-        text-align: center; /* Alineación del texto */
+       
  }
     
 body{
@@ -39,12 +39,15 @@ h1{
 .caracter, .ex, .mas, .long{
     margin: 15px;
 }
-
+textarea[name="escribe"]{
+    margin-left: 22%;
+     margin-right: 25%;
+}
 textarea{
     background-color: rgb(236, 174, 212);
     border-style:ridge;
     border-color:beige;
-    margin-right: 25%;
+   
     font-style: italic;
     height: 17em;
     width: 700px;
