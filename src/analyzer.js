@@ -1,5 +1,6 @@
 const analyzer = {  
 
+
   getWordCount: (text) => {
     
     const words = text.trim().split(' ').filter(word => word !== '').length;
@@ -92,6 +93,7 @@ const analyzer = {
       suma+= parseFloat(RecoridoNumero);
     }
     return  suma;//retorn el total de la suma de los numeros encontrados 
+
   },
 }
 

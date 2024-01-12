@@ -1,4 +1,5 @@
 # Analizador de texto
+<<<<<<< HEAD
 ## Objetivo
 * Realizar un analisis de datos de manera especifica con caracteres, 
 * numeros y palabras, permitiendo al usuario observar su texto de 
@@ -17,6 +18,7 @@
 
 
 ## 2. Preámbulo
+
 
 
 

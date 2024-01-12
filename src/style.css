@@ -1,3 +1,4 @@
+
 header {
         background-color: red; /* Color de fondo */
         color: #fff; /* Color del texto */
@@ -24,6 +25,7 @@ h1{
     font-style:oblique;
     
  }
+
  .E{
     color:grey;
     border-color: beige;
@@ -37,10 +39,8 @@ h1{
 .caracter, .ex, .mas, .long{
     margin: 15px;
 }
-h2{
-    text-align:right;
-}
-textarea[name="escribe"]{
+
+textarea{
     background-color: rgb(236, 174, 212);
     border-style:ridge;
     border-color:beige;
